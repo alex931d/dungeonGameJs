@@ -24,15 +24,12 @@ To install and set up the Dungeon Crawler JavaScript 2D Game, follow the instruc
 
 Clone the repository to your local machine using the following command:
 ```
-bash
-Copy code
+
 git clone https://github.com/your-username/dungeon-crawler.git
 ```
 Navigate to the project's directory:
 
 ```
-bash
-Copy code
 cd dungeon-crawler
 ```
 The game is built around an index.html file. Simply open the index.html file in a web browser to launch the game.
