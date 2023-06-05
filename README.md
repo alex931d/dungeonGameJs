@@ -5,7 +5,7 @@ The small dungeon crawler is a JavaScript 2D game that takes players on an excit
 ![image](https://i.ibb.co/6WcR9Tf/rwrwaarwwarawr.png)
 
 ### Introduction
-Welcome to the Dungeon Crawler JavaScript 2D Game GitHub repository! This repository houses an exciting dungeon crawler game built entirely in vanilla JavaScript, offering an immersive gaming experience for enthusiasts.
+Welcome to the Dungeon Crawler JavaScript 2D Game GitHub repository! This repository houses an exciting dungeon crawler game built entirely in vanilla JavaScript.
 
 ### About the Game
 The dungeon crawler is a classic 2D game that takes players on an epic journey through a maze-like dungeon. It combines elements of exploration, combat, and puzzle-solving to provide an engaging gameplay experience. With retro-styled graphics and captivating gameplay mechanics, this game is sure to bring back nostalgic memories while offering new challenges.
@@ -19,9 +19,23 @@ The dungeon crawler is a classic 2D game that takes players on an epic journey t
 - Immersive Sound Effects: Immerse yourself in the game world with atmospheric sound effects and background music.
 Installation and Usage
 - To get started with the game, please refer to the Installation and Usage sections in the repository. They provide detailed instructions on how to set up the game locally and how to play it.
+### installation and Usage
+To install and set up the Dungeon Crawler JavaScript 2D Game, follow the instructions below:
 
-### Contribution
-We welcome contributions from the open source community to enhance the game and make it even better. If you have any bug fixes, feature suggestions, or improvements, please feel free to submit a pull request. Make sure to read the Contributing guidelines for more information.
+Clone the repository to your local machine using the following command:
+```
+bash
+Copy code
+git clone https://github.com/your-username/dungeon-crawler.git
+Navigate to the project's directory:
+´´´
+```
+bash
+Copy code
+cd dungeon-crawler
+´´´
+The game is built around an index.html file. Simply open the index.html file in a web browser to launch the game.
 
+That's it! You have successfully installed the Dungeon Crawler JavaScript 2D Game and are ready to embark on your adventure in the dungeon.
 ### License
-This project is licensed under the MIT License, which means you are free to use, modify, and distribute the game as per the terms of the license.
+This project is licensed under the Apache License 2.0 
