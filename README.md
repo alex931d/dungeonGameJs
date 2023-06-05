@@ -2,7 +2,7 @@
 
 The small dungeon crawler is a JavaScript 2D game that takes players on an exciting adventure through a maze-like dungeon. In this game, players navigate through various levels, encountering monsters, collecting treasures, and solving puzzles along the way. The objective is to explore the dungeon, defeat enemies, and ultimately reach the final boss to complete the game.
 
-![screenshot](![image](https://i.ibb.co/6WcR9Tf/rwrwaarwwarawr.png)
+![image](https://i.ibb.co/6WcR9Tf/rwrwaarwwarawr.png)
 
 ### Introduction
 Welcome to the Dungeon Crawler JavaScript 2D Game GitHub repository! This repository houses an exciting dungeon crawler game built entirely in vanilla JavaScript, offering an immersive gaming experience for enthusiasts.
