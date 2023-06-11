@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./inventory.css">
+    <link rel="stylesheet" href="./seller.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <style>
+    </style>
+    <canvas>
+
+    </canvas>        
+    <div class="uiElements">
+        <div class="error-box hide">
+            <span>inventory full</span>
+        </div>
+        <div class="playerBar">
+
+             <div class="medium-box">
+                <div class="slot">
+                    <img src="./assets/uiElements/ui_heart_full.png">
+                </div>
+                <div class="slot">
+                    <img src="./assets/uiElements/ui_heart_full.png">
+                </div>
+                <div class="slot">
+                    <img src="./assets/uiElements/ui_heart_full.png">
+                </div>
+             </div>
+        </div>
+        <div class="timer">
+        </div>
+        <!-- <div class="keyControls">
+            <img src="assets/keyboards/normal/tile195.png" class="upKey"></img>
+            <div class="bottom-container">
+                <img src="./assets/keyboards/normal/tile229.png" class="rightKey"></img>
+                <img src="./assets/keyboards/normal/tile230.png" class="downKey"></img>
+                <img src="./assets/keyboards/normal/tile231.png" class="leftKey"></img>
+            </div>
+        </div> -->
+        <!-- <div class="playerInventory">
+             <div class="slot-wrapper">
+                <div class="inventory-item">
+                    <img src="./assets/objects/obtainables/flask_big_blue.png">
+                </div>
+             </div>
+        </div> -->
+    </div>
+    <div class="overlayer hide">
+        <div class="overlayer-content">
+            <div class="overlayer-content-header">
+                <span class="levelname">next level "the journy begins"</span>
+            </div>
+            <span>click to continue</span>
+        </div>
+    </div>
+    <div class="dialogElement hide">
+            <span>click e to activate</span>
+        </div>
+       <div class="seller-shop hide">
+        <div class="seller-shop-centerlized">
+         <div class="seller-shop-split">
+             <div class="seller-shop-top">
+                  <div class="trader-image"></div>
+                  <div class="wrapper-seller">
+                        <span>message text</span>
+                  <small>coins: 10</small>
+                  </div>
+              
+             </div>
+             <div class="seller-shop-main">
+                     <fieldset>
+                        <legend>shop</legend>
+                          <div class="seller-shop-main-items">
+                  
+            
+                        </div>
+                     </fieldset>
+             </div>
+         </div>
+        </div>
+       </div>
+        <div class="inventory hidden">
+            <div class="centerlized">
+            <div class="hero-area">
+                <div class="hero"></div>
+                <div class="content-area">
+                <fieldset>
+              <legend>
+               stats
+              </legend>
+              <div class="stats-row">
+                <small>speed</small>
+                <small class="speed">10</small>
+               </div>
+               <div class="stats-row">
+                <small>coins</small>
+                <small>0</small>
+               </div>
+            </fieldset>
+        </div>
+            </div>
+            
+            <div class="item-area">
+                 <div class="item-area-wrapper">    
+                <fieldset>
+                <legend>inventory</legend>
+                <div class="slots-wrapper">
+    
+                </div>   
+                   </fieldset>
+                 </div>    
+            </div>
+  
+        </div>
+        </div>
+    <main>
+        <div class="game-menu">
+            <div class="title">
+                <h1>mini doungen game</h1>
+            </div>
+            <div class="button-controls">
+              <div class="menu-control" alt="click enter"></div>
+            </div>      
+        </div>
+    </main>
+    <script src="./classes/projectiles/randomBullet.js"></script>
+    <script src="./classes/players/player.js"></script>
+    <script src="./classes/enemys/xAxlesEnemy.js"></script>
+    <script src="./classes/enemys/yAxlesEnemy.js"></script>
+    <script src="./screenEffect.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

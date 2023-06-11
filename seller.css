@@ -1,0 +1,103 @@
+.seller-shop{
+position: absolute;
+inset: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(45, 45, 45, 0.733);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+.seller-shop-centerlized{
+    width: 55%;
+    height: 40%;
+    border: 4px solid rgb(58, 35, 35);
+    background-color: rgb(59, 41, 41);
+}
+.seller-item{
+    background-color: rgb(75, 54, 54);
+    border: 7px solid rgb(83, 53, 53);
+    border-radius: 10px;
+    width: calc(100% / 8);
+  height: calc(100% / 5);
+  position: relative;
+
+}
+.price-box{
+    position: absolute;
+    left: -15%;
+    top: -15%;
+    padding: 2px;
+    background-color: rgb(75, 54, 54);
+    border: rgb(83, 53, 53) 3px solid;
+    border-radius: 5px;
+    width: fit-content;
+    color: white;
+}
+.price{
+    position: absolute;
+    bottom: -30%;
+    left: calc(50% - 70px / 2);
+}
+.price button{
+    width: 70px;
+    background-color: rgb(75, 54, 54);
+    border: none;
+    padding: 5px;
+    color: green;
+    font-family: 'Press Start 2P', cursive;
+    text-transform: capitalize;
+    border: rgb(83, 53, 53) 3px solid;
+    cursor: pointer;
+}
+
+.seller-shop-split{
+    padding: 15px;
+    height: calc(80% - 30px)
+}
+.seller-shop-top{
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.seller-shop-top span{
+    padding: 10px;
+}
+.trader-image{
+    width: 100px;
+   height: 100%;
+  background-image: url(./assets/objects/trader/dwarf_m_idle_anim_f0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    image-rendering: pixelated;
+}
+.wrapper-seller{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.seller-shop-main{
+    width: 100%;
+    height: 100%;
+}
+.seller-shop-main fieldset{
+    height: 100%;
+}
+.seller-shop-main legend{
+    padding: 10px;
+    border: 2px solid salmon;
+    color: white;
+}
+.seller-shop-main-items{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+}

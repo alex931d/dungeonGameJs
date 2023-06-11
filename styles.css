@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background-color: #222222;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    position: relative;    
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+canvas{
+width: 100%;
+height: 100vh;
+image-rendering: pixelated;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #222222;
+}
+.menu-control{
+    width: 150px;
+    image-rendering: pixelated;
+    height: 80px;
+    animation-name: animationClick;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+animation-timing-function: steps(3,end);
+  
+}
+@keyframes animationClick {
+    from {background-image: url(./assets/keyboards/enter/normal.png);}
+    to {background-image: url(./assets/keyboards/enter/clicked.png);}
+  }
+.game-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+ color: white;
+ font-size: 2rem;
+}
+.button-controls{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100%;
+    align-items: center;
+}
+.btn{
+
+    background-color: transparent;
+    width: 50%;
+    height: 70px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.2rem;
+    color: white;
+}
+.dialogElement{
+    position: absolute;
+    bottom: 30px;
+    padding: 20px;
+    left: calc(10% - 40px);
+    border-image: url('./assets/background/tile000.png') 25% round;
+ width: 80%;
+ min-height: 80px;
+ background-color: black;
+ border: 5px solid white;
+}
+.dialogElement span{
+    color: white;
+    font-size: 2rem;
+}
+.hide{
+    display: none !important;
+}
+.dialogElement .highlight{
+    font-size: 2.5rem;
+    color: aquamarine;
+}
+.overlayer{
+    background-color: rgba(45, 45, 45, 0.532);
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlayer-content{
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.overlayer-content-header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlayer-content span{
+    color: rgb(220, 220, 220);
+}
+.uiElements{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+}
+.playerBar{
+    left: 0;
+    top: 0%;
+    background-color: transparent;
+    position: absolute;
+  min-width: 250px;
+  width: 250px;
+  height: 90px;
+  display: flex;
+}
+.playerInventory{
+   right: 0;
+    top: 0;
+  position: absolute;
+    width: 250px;
+    height: 90px;
+}
+.timer{
+    right: 20px;
+    top: 70px;
+    position: absolute;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.timer span{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(176, 176, 176);
+}
+.large-box{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+}
+.medium-box{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    height: calc(100% - 20px);
+    flex-direction: row;
+
+}
+.slot{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slot img{
+    object-fit: contain;
+    width: 60%;
+    height: 60%;
+}
+
+.keyControls{
+    right: 20px;
+    top: 115px;
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.keyControls img{
+    width: 50px;
+    height: 50px;
+}
+
+.keyControls .bottom-container{
+    display: flex; 
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+@keyframes fadeOut {
+0% {
+transform: translateY(0);
+opacity: 1;
+}
+75%{
+    opacity: 1;
+}
+100% {
+    transform: translateY(-75px);
+    opacity: 0;
+}
+  }
+.fade-out{
+        animation-name: fadeOut;
+    animation-duration: 2s;
+}
+.error-box{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+
+}
+.error-box span{
+    font-size: 23px;
+    color: red;
+    text-transform: capitalize;
+}

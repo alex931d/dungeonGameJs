@@ -1,0 +1,75 @@
+{
+    "items": {
+      "bomb": {
+        "sprite": "./assets/objects/bomb/bomb_f0.png",
+        "action": "bomb",
+        "about": {
+          "title": "big bomb",
+          "description": "a black powder bomb used to blow up walls",
+          "type": "puzzle",
+          "rarity": "common"
+        }
+      },
+      "speed-potion": {
+        "sprite": "./assets/objects/obtainables/flask_big_blue.png",
+        "action": "speed",
+        "about": {
+          "title": "small speed potion",
+          "description": "a small speed potion that gives +5 speed for a limited time",
+          "type": "consumable",
+          "rarity": "common"
+        }
+      },
+      "key": {
+        "sprite": "./assets/objects/key/key.png",
+        "action": "key",
+        "about": {
+          "title": "a golden key",
+          "description": "a small golden key useful for opening doors",
+          "type": "puzzle",
+          "rarity": "common"
+        }
+      },
+      "bucket": {
+        "sprite": "./assets/objects/bucket/empty.png",
+        "action": "bucket",
+        "about": {
+          "title": "an iron bucket",
+          "description": "a bucket useful for picking up water",
+          "type": "puzzle",
+          "rarity": "common"
+        }
+      },
+      "leather-pants": {
+        "sprite": "./assets/objects/armor/leather/pants.png",
+        "action": "armor",
+        "about": {
+          "title": "leather pants",
+          "description": "leather pants give +1 health permanently",
+          "type": "wearable",
+          "rarity": "rare"
+        }
+      },
+      "leather-chestplate": {
+        "sprite": "./assets/objects/armor/leather/chest.png",
+        "action": "armor",
+        "about": {
+          "title": "leather chestplate",
+          "description": "leather chestplate gives +1 health permanently",
+          "type": "wearable",
+          "rarity": "rare"
+        }
+      },
+      "magic-book": {
+        "sprite": "./assets/objects/book/book.png",
+        "action": "perma-buff-item",
+        "about": {
+          "title": "magic book",
+          "description": "magic book gives +1 speed permanently",
+          "type": "wearable",
+          "rarity": "rare"
+        }
+      }
+    }
+  }
+  
