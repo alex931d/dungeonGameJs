@@ -37,3 +37,6 @@ The game is built around an index.html file. Simply open the index.html file in 
 That's it! You have successfully installed the Dungeon Crawler JavaScript 2D Game and are ready to embark on your adventure in the dungeon.
 ### License
 This project is licensed under the Apache License 2.0 
+
+### warning
+this project is still work in progress. meaning alot of changes is expect to happen and rework of code and new features
