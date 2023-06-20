@@ -1176,7 +1176,7 @@ let themes ={
 let gameConfig = {
     score: 0,
     lives: 2,
-    currentLevelIndex: 3,  
+    currentLevelIndex: 1,  
     currentMusic: musicPlayer('i dont really fucking know'),
     coins: 0,
     levels: {
